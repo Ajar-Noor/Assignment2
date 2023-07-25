@@ -14,6 +14,11 @@ const Great = () => {
             <img src='.\images\unsplash_bzqU01v-G54.svg' alt='unsplash'></img>
             </div>
 
+            <div className='w-[78px] h-[78px] shrink-0 top-[140px] left-[236px] absolute'>
+            <img src='.\images\play-rounded-button 1.svg' alt='unsplash'></img>
+            </div>
+
+
         <div className='w-[178px] h-[178px] top-[58px] left-[630px] absolute'>
           <img src='.\images\Rectangle 26.svg' alt='rect26'></img>
         </div>

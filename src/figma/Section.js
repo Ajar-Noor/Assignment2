@@ -21,7 +21,7 @@ const Section = () => {
                 <img src='.\images\Rectangle 25.svg' alt='rectangle'></img>
                 </div>
 
-                <div className='w-[396px] h-[180px] top-[380px] left-[30px] border-[1px] border-[black] absolute'>
+                <div className='w-[396px] h-[180px] top-[380px] left-[30px] absolute'>
                     <div className='[Averta Demo PE Cutted Demo] text-[40px] leading-[normal] font-bold text-[black] not-italic'>
                         How can we help your Business ?
                         </div>
