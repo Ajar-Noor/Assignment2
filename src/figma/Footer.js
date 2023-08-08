@@ -5,7 +5,7 @@ const Footer = forwardRef ((props,ref) => {
   // const {client}=props;
   return (
     <div ref={ref}>
-      <div className='top-[3300px] left-[1400px] relative cursor-pointer'>
+      <div className='top-[3300px] left-[40px] relative cursor-pointer'>
         <PiArrowFatLinesUpBold onClick={props.client} className='h-[30px] w-[30px]' />
         </div>
 
