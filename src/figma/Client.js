@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
-const Client = () => {
+const Client = forwardRef ((props,ref) => {
   return (
     <>
-      <div className='w-[1199.55px] h-[124px] top-[764px] left-[120px] absolute'> 
+      <div className='w-[1199.55px] h-[124px] top-[764px] left-[120px] absolute' ref={ref}> 
 
         <div className='text-[40px] not-italic [Averta Demo PE Cutted Demo] text-[#000] font-bold 
         leading-[normal]'><h1>Our Client</h1></div>
@@ -32,5 +32,6 @@ const Client = () => {
     </>
   )
 }
+)
 
 export default Client

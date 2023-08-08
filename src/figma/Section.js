@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
-const Section = () => {
+const Section = forwardRef((_,ref) => {
   return (
     <>
-        <div className='w-[1358px] h-[867px] shrink-0 top-[982px] left-[82px] absolute'>
+        <div className='w-[1358px] h-[867px] shrink-0 top-[982px] left-[82px] absolute' ref={ref}>
 
                            <div className='w-[405px] h-[154px] top-[660px] left-[30px] shrink-0 absolute '>
                             <img src='.\images\Dot Ornament.svg' alt='rectan'></img>
@@ -32,7 +32,7 @@ const Section = () => {
                            </div>
 
                            <div className='w-[308px] h-[379px] shrink-0 rounded-[40px] border-[1px solid #F2F2F2]
-                           top-[65px] left-[525px] absolute bg-[#FFF] shadow-[0px 10px 50px 0px rgba(0, 0, 0, 0.05)]'>
+                           top-[65px] left-[525px] absolute bg-[#FFF] drop-shadow-md'>
 
                             <div className='h-[121px] w-[121px] bg-[#F1F7FF] top-[39px] left-[94px] absolute rounded-[20px] '>
                             <img src='.\images\box-search 1.svg' alt='rectangle' className='shrink-0 top-[24px] left-[24px] relative'></img>
@@ -46,7 +46,7 @@ const Section = () => {
                            </div>
 
                            <div className='w-[308px] h-[379px] shrink-0 rounded-[40px] border-[1px solid #F2F2F2]
-                           left-[880px] absolute bg-[#FFF] shadow-[0px 10px 50px 0px rgba(0, 0, 0, 0.05)]'>
+                           left-[880px] absolute bg-[#FFF] drop-shadow-md'>
                              <div className='h-[121px] w-[121px] bg-[#FFF7E3] top-[39px] left-[94px] rounded-[20px] relative'>
                                 <img src='.\images\empty-wallet 1.svg' alt='wallet' className='shrink-0 top-[24px] left-[24px] relative'></img>
                              </div>
@@ -59,7 +59,7 @@ const Section = () => {
                             </div>
 
                             <div className='w-[308px] h-[379px] shrink-0 rounded-[40px] border-[1px solid #F2F2F2]
-                           top-[480px] left-[525px] absolute bg-[#FFF] shadow-[0px 10px 50px 0px rgba(0, 0, 0, 0.05)]'>
+                           top-[480px] left-[525px] absolute bg-[#FFF] drop-shadow-md'>
                              <div className='h-[121px] w-[121px] bg-[#FFF2F8] top-[39px] left-[94px] rounded-[20px] relative'>
                                 <img src='./images/code-1 1.svg' alt='wallet' className='shrink-0 top-[24px] left-[24px] relative'></img>
                              </div>
@@ -72,7 +72,7 @@ const Section = () => {
                             </div>
 
                             <div className='w-[308px] h-[379px] shrink-0 rounded-[40px] border-[1px solid #F2F2F2]
-                           top-[420px] left-[880px] absolute bg-[#FFF] shadow-[0px 10px 50px 0px rgba(0, 0, 0, 0.05)]'>
+                           top-[420px] left-[880px] absolute bg-[#FFF] drop-shadow-md'>
                              <div className='h-[121px] w-[121px] bg-[#DEFFEE] top-[39px] left-[94px] rounded-[20px] relative'>
                                 <img src='.\images\chart-square 1.svg' alt='wallet' className='shrink-0 top-[24px] left-[24px] relative'></img>
                              </div>
@@ -88,5 +88,6 @@ const Section = () => {
     </>
   )
 }
+)
 
 export default Section

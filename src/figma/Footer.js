@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
+import {PiArrowFatLinesUpBold} from 'react-icons/pi'
 
-const Footer = () => {
+const Footer = forwardRef ((props,ref) => {
+  // const {client}=props;
   return (
-    <>
+    <div ref={ref}>
+      <div className='top-[3300px] left-[1400px] relative cursor-pointer'>
+        <PiArrowFatLinesUpBold onClick={props.client} className='h-[30px] w-[30px]' />
+        </div>
+
       <div className='w-[1200px] h-[348px] top-[3731px] left-[120px] absolute'>
         <hr size='10'></hr>
 
@@ -74,8 +80,10 @@ Become Investor</span>
 </div>
 
       </div>
-    </>
+    </div>
   )
-}
+  
+})
+
 
 export default Footer
